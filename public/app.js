@@ -62,15 +62,6 @@ $(document).ready(function() {
     });
 
 
-    var _loginBox = $('#loginBox');
-    $('#loginBtn').on('click', function() {
-        console.log(_loginBox.attr('id'));
-        _loginBox.load('/users/sign_up body > *', function(responseText, textStatus, XMLHttpRequest) {
-            console.log(responseText+' '+ textStatus+' '+ XMLHttpRequest);
-            _loginBox.html(responseText)
-            _loginBox.fadeIn();
-        })
-    });
 
 
 });
