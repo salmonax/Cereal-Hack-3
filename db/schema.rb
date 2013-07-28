@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130727233737) do
+ActiveRecord::Schema.define(version: 20130728011056) do
 
   create_table "geostories", force: true do |t|
     t.string   "title"
     t.string   "author"
-    t.text     "story"
+    t.text     "text"
     t.integer  "duration"
     t.float    "latitude"
     t.float    "longitude"
