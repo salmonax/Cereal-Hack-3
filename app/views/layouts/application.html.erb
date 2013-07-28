@@ -16,37 +16,40 @@
     </head>
     <body id="body">
 
-<nav style="" class="top-bar hide-for-small">
-      <ul class="title-area">
-        <!-- Title Area -->
-        <li class="name">
-          <h1><a href="/">Prosaic</a></h1>
-        </li>
-        <!-- On mobile: Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
+<%#<div class="fixed">%>
+    <nav style="" class="top-bar ">
+          <ul class="title-area">
+            <!-- Title Area -->
+            <li class="name">
+              <h1><a href="/">Prosaic</a></h1>
+            </li>
+            <!-- On mobile: Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
 
-      
-    <section class="top-bar-section">
-        <!-- Right Nav Section -->
-        <ul class="right">
-          <li class="divider"></li>
-          <li class=""><a href="/grid.php">Features</a></li>
-          <li class="divider"></li>
-          <li class=""><a href="/templates.php">Add-ons</a></li>
-          <li class="divider"></li>
-          <li class=""><a href="/case-jacquelinewest.php">Case Studies</a></li>
-          <li class="divider"></li>
-          <li class=""><a href="/docs/">Docs</a></li>
-          <li class="divider"></li>
-          <li class=""><a href="/training.php">Training</a></li>
-          <li class="divider"></li>
-          <li class="has-form">
-            <a href="http://foundation.zurb.com/docs" class="button">Getting Started</a>
-          </li>
-        </ul>
-    </section>
-</nav>
+          
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="divider"></li>
+              <li class=""><a href="/grid.php">Features</a></li>
+              <li class="divider"></li>
+              <li class=""><a href="/templates.php">Add-ons</a></li>
+              <li class="divider"></li>
+              <li class=""><a href="/case-jacquelinewest.php">Case Studies</a></li>
+              <li class="divider"></li>
+              <li class=""><a href="/docs/">Docs</a></li>
+              <li class="divider"></li>
+              <li class=""><a href="/training.php">Training</a></li>
+              <li class="divider"></li>
+              <li class="has-form">
+                <a id="loginBtn" href="http://foundation.zurb.com/docs" class="button">Login</a>
+                <%#<button id="loginBtn">Login</button>%>
+              </li>
+            </ul>
+        </section>
+    </nav>
+<%#</div>%>
 
 
 
@@ -72,11 +75,11 @@
           </script>
 
           <script src="/foundation/js/foundation.min.js"></script>
+          <!--
           <script src="/foundation/js/foundation/foundation.js"></script>
           <script src="/foundation/js/foundation/foundation.reveal.js"></script>
           <script src="/foundation/js/foundation/foundation.tooltips.js"></script>
           <script src="/foundation/js/foundation/foundation.forms.js"></script>
-          <!--
           <script src="/foundation/js/foundation/foundation.alerts.js"></script>
           <script src="/foundation/js/foundation/foundation.clearing.js"></script>
           <script src="/foundation/js/foundation/foundation.cookie.js"></script>
