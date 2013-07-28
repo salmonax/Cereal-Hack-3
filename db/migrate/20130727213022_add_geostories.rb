@@ -3,7 +3,7 @@ class AddGeostories < ActiveRecord::Migration
     create_table :geostories do |t|
       t.string :title 
       t.string :author
-      t.text :text
+      t.text :story
       t.integer :duration
       t.float :latitude
       t.float :longitude
